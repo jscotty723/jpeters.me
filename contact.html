@@ -17,37 +17,73 @@
         <header class="header">
             <nav class="headerContainer">
                 <div class="headerLeft headerLR">
-                    <a class="headerLinks logoText" href="#">| | JSP | |</a>
+                    <a class="headerLinks logoText" href="home.html"></a>
                 </div>
 
                 <a href="#" class="openSlide openSlideMenu"onclick="openSlideMenu()"><i class="fas fa-bars"></i></a>
 
                 <div class="headerRight headerLR navbar navbar-nav">
-                    <a class="navLinks" href="#">Home</a>
-                    <a class="navLinks" href="#">Featured Projects</a>
-                    <a class="navLinks active currentPageLink" href="#">Let's Talk</a>
+                    <a class="navLinks currentPageLink active" href="home.html">Home</a>
+
+                    <div class="subMenuWrapper">
+                        <a class="parentSubLink subMenu navLinks" id="featuredID" href="featured.html">Featured Projects &#x2304;</a>
+                        <div class="parentSubLink subMenuContainer">
+                            <a class="subMenuItem navLinks" id="topMenuItem" href="minesweeper.html">Minesweeper</a>
+                            <a class="subMenuItem navLinks" href="connectFour.html">ConnectFour</a>
+                            <a class="subMenuItem navLinks" href="battleship.html">Battleship</a>
+                            <a class="subMenuItem navLinks" href="RBGGame.html">RGB Game</a>
+                            <a class="subMenuItem navLinks" href="ticTacToe.html">Tic-Tac-Toe</a>
+                            <a class="subMenuItem navLinks" href="OUGU.html">Own-Up Grown-Up</a>
+                        </div>
+                    </div>
+
+                    <a class="navLinks" href="#">Let's Talk</a>
                 </div>
 
                 <div id="side-menu"class="side-nav">
                     <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-                    <a class="slideLinks" href="#">Home</a>
-                    <a class=" slideLinks" href="#">Featured Projects</a>
-                    <a class=" slideLinks active currentPageLink" href="#">Let's Talk</a>
+                    <a class="currentPageLink active slideLinks" href="#">Home</a>
+                    <a class=" slideLinks" href="featured.html">Featured Projects</a>
+                    <a class=" slideLinks" href="contact.html">Let's Talk</a>
                 </div>
+
             </nav>
         </header>
 
-        <main>
+        <main class="contactMain">
             <section>
                 <div class="contactSection">
-                    <div class="contactContainer">
-                        <div class="contactPhoto">
-                            <img src="#" alt="">
-                        </div>
-                        <div class="contactInfo">
-
-                        </div>
-                    </div>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <p>
+                            <label class="formLabel">Your Name:</label>
+                            <input placeholder="John Doe" type="text" name="name" required/>
+                        </p>
+                        <p>
+                            <label class="formLabel">Your Email:</label>
+                            <input placeholder="johndoe@example.com" type="email" name="email" required/>
+                        </p>
+                        <p>
+                            <label class="formLabel">Your Phone:</label>
+                            <input placeholder="555-555-5555" type="text" name="phone" />
+                        </p>
+                        <p>
+                            <label class="formLabel">Prefered Method of Contact:</label>
+                            <select name="role[]" multiple>
+                                <option value="phone">Phone</option>
+                                <option value="email">Email</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label class="formLabel">Message: </label>
+                            <textarea placeholder="What can I do for you?" name="message"></textarea>
+                        </p>
+                        <div data-netlify-recaptcha="true"></div>
+                        <p>
+                            <label class="formLabel"></label>
+                            <button class="submitForm" type="submit">Submit</button>
+                        </p>
+                    </form>
                 </div>
             </section>
 
