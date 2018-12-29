@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,800" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="base.css">
+        <link rel="stylesheet" href="game.css">
+        <script type="text/javascript" src="navbar.js">
+
+        </script>
+        <meta charset="utf-8">
+        <title>Tic-Tac-Toe Details</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="headerContainer">
+                <div class="headerLeft headerLR">
+                    <a class="headerLinks logoText" href="home.html"></a>
+                </div>
+
+                <a href="#" class="openSlide openSlideMenu"onclick="openSlideMenu()"><i class="fas fa-bars"></i></a>
+
+                <div class="headerRight headerLR navbar navbar-nav">
+                    <a class="navLinks currentPageLink active" href="home.html">Home</a>
+
+                    <div class="subMenuWrapper">
+                        <a class="parentSubLink subMenu navLinks" id="featuredID" href="featured.html">Featured Projects &#x2304;</a>
+                        <div class="parentSubLink subMenuContainer">
+                            <a class="subMenuItem navLinks" id="topMenuItem" href="minesweeper.html">Minesweeper</a>
+                            <a class="subMenuItem navLinks" href="connectFour.html">ConnectFour</a>
+                            <a class="subMenuItem navLinks" href="battleship.html">Battleship</a>
+                            <a class="subMenuItem navLinks" href="RBGGame.html">RGB Game</a>
+                            <a class="subMenuItem navLinks" href="pigLatin.html">Piglatin Translator</a>
+                            <a class="subMenuItem navLinks" href="ticTacToe.html">Tic-Tac-Toe</a>
+                        </div>
+                    </div>
+
+                    <a class="navLinks" href="#">Let's Talk</a>
+                </div>
+
+                <div id="side-menu"class="side-nav">
+                    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                    <a class="currentPageLink active slideLinks" href="home.html">Home</a>
+                    <a class=" slideLinks" href="featured.html">Featured Projects</a>
+                    <a class=" slideLinks" href="contact.html">Let's Talk</a>
+                </div>
+
+            </nav>
+        </header>
+        <main>
+            <section class="gameDetails">
+                <div class="gameInformation">
+                    <br/>
+                    <h4>
+                        Tic-Tac-Toe Explained:
+                    </h4>
+                    <br/>
+                    <summary>
+                        <span class="heading">My process in developing this game:</span>
+                        <br/>
+                        This was the first application I built while learning React. Learning to use state to change the styling was one of my biggest take aways. While I class we got a version functioning, but amytime the browser was changed, the board would get completely unaligned.
+                        <br/>
+                        <br/>
+                        <span class="heading">
+                            Technologies Used:
+                        </span>
+                        <br/>
+                        &#8226; HTML5
+                        <br/>
+                        &#8226; CSS3
+                        <br/>
+                        &#8226; ReactJS
+                        <br/>
+                        <br/>
+                        <span class="heading">
+                            Barriers to Development:
+                        </span>
+                        <br/>
+                        Not understanding how to format using flexbox was a huge issue in my first attemption. While the logic worked, the layout did not. After starting over completely with the CSS, my second attempt worked much better to support different browser sizes.
+                        <br/>
+                        <br/>
+                        <span class="heading">
+                            Refactoring:
+                        </span>
+                        <br/>
+                        The first refactor was to allow a user to pick the color with which their mark would render. The second refactor was to completely redo the CSS for the project so that it could handel browsers being in different sizes.
+
+                        <br/>
+
+                        <br/>
+                        <br/>
+                    </summary>
+                    <div class="gameButtons">
+                        <a class="launchGameButton" href="https://jpeterstictactoe.herokuapp.com/">
+                            Launch Tic-Tac-Toe
+                        </a>
+                        <br/>
+                        <br/>
+                        <a class="lookAtTheCode" href="https://github.com/jscotty723/ticTacToeReact">
+                            Look at the Code
+                        </a>
+                    </div>
+                </div>
+                <aside class="screenshots">
+                    <h4>Screenshots:</h4>
+                    <img src="Images/ticTacToe1.png" alt="Tic-Tac-Toe game screenshot">
+                    <br/>
+                    <img src="Images/ticTacToe2.png" alt="Tic-Tac-Toe game screenshot">
+                </aside>
+            </section>
+            <section class="socialLinksSection">
+                <div class="socialLinksContainer">
+                    <a class="socialLink" id="linkedInBtn" href="https://www.linkedin.com/in/juliannespeters/"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a class="socialLink" id="githubBtn" href="https://github.com/jscotty723"><i class="fab fa-github-square fa-2x"></i></a>
+                    <a class="socialLink" id="twitterBtn" href="https://twitter.com/JulianneScott"><i class="fab fa-twitter-square fa-2x"></i></a>
+                    <a class="socialLink" id="instagramBtn" href="https://www.instagram.com/juliannescott/"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footerContainer">
+                <div class="footerText">
+                    © Juilanne S. Peters   |   www.JulianneScott.com
+                </div>
+
+            </div>
+        </footer>
+
+    </body>
+</html>

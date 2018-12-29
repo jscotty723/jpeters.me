@@ -1,0 +1,74 @@
+/* about me styling */
+.featuredProjectsSection {
+    width: 100vw;
+    background: #131b26;
+}
+
+.featuredProjectsText {
+    margin-top: 55px;
+    color: #cc6720;
+    padding: 70px;
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+.featuredCardsSection {
+    width: 100vw;
+    background: #131b26;
+    border-bottom: 1.5px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.featuredCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+}
+
+.featuredCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 350px;
+    min-width: 350px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 8px;
+    margin-bottom: 35px;
+    border: 0.5px solid #cc6720;
+    box-shadow: 0 1px 0 rgba(30, 30, 32, 0.2) inset, 0 8px 16px rgba(0, 0, 0, 0.5);
+    background-image: url(Images/binaryImg.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.featuredCard:hover {
+    background-image: url(Images/binaryImgInvert.jpg);
+}
+
+.featuredCardText {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+    text-shadow:
+		-2px -2px 0 #131b26,
+		2px -2px 0 #131b26,
+		-2px 2px 0 #131b26,
+		2px 2px 0 #131b26;}
+
+/* social links styling */
+.socialLink {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}

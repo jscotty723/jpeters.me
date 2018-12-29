@@ -1,0 +1,249 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: visible;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a {
+    color: white;
+    text-decoration: none; /* no underline */
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* header styling */
+.header {
+    background-color: #4D545B;
+    border-bottom: 1px solid white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow-y: visible;
+    box-shadow: 0 3px 3px -3px rgba(0,0,0,.4);
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    /* padding-top: 6px; */
+}
+
+.headerLeft {
+    display: flex;
+    justify-content:flex-start;
+    padding-top: 6px;
+}
+
+.headerRight {
+    display: flex;
+    justify-content:flex-end;
+    overflow: visible;
+}
+
+.logoText {
+    font-size: 36px;
+    margin: 5px 5px 5px 15px;
+    background-image: url(Images/Logo.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: auto;
+}
+
+.navLinks {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 19px;
+    font-size: 18px;
+    background-color: #4D545B;
+}
+
+.navLinks:hover {
+    background-color: #262B32;
+}
+
+.currentPageLink {
+    font-weight: 800;
+}
+
+
+.subLink {
+    font-size: 18px;
+}
+
+/* dropdown menu styles */
+
+.parentSubLink {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.subMenuWrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 13px;
+    margin-bottom: 19px;
+}
+
+.subMenuContainer {
+    display: none;
+    position: absolute;
+    width: 190px;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0 3px 3px -3px rgba(0,0,0,0.6);
+}
+
+.subMenuContainer a {
+    white: black;
+    font-size: 18px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.subMenuContainer a:hover {
+    background-color: #262B32
+}
+
+.subMenuWrapper:hover .subMenuContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#topMenuItem {
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+
+/* responsive menu styles */
+.navbar {
+    overflow-x: visible;
+}
+
+.openSlideMenu {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.side-nav {
+    flex-direction: column;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top:  40px;
+    transition: 0.5s;
+}
+.side-nav a {
+    padding: 0px 10px 10px 20px;
+    text-decoration: none;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.side-nav .slideLinks:hover {
+    background-color: #4D545B
+
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 42px;
+}
+
+#main {
+    transition: margin-right 0.5s;
+    padding: 20px;
+    overflow: visible;
+    width: 100%;
+}
+
+@media(max-width:620px) {
+    .navbar-nav {
+        display: none;
+    }
+}
+
+@media(min-width:620px) {
+    .openSlide {
+        display: none;
+    }
+}
+
+.socialLinksContainer {
+    width: 100vw;
+    background: #cc6720;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1.5px solid white;
+    border-top: 1.5px solid white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.socialLink {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+/* social links hover effects */
+#twitterBtn:hover {
+    color: #1DA1F2;
+}
+
+#linkedInBtn{
+    margin-left: 50px;
+}
+
+#linkedInBtn:hover {
+    color: #0077B5;
+}
+
+#instagram {
+    margin-right: 50px;
+}
+
+#instagramBtn:hover {
+    color: #fb3958;
+}
+
+#githubBtn:hover {
+    color: #6e5494;
+}
+
+
+/* footer styling */
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100vw;
+    background: #131b26;
+    align-items: center;
+}
+
+.footerText {
+    color: white;
+    letter-spacing: .15rem;
+    font-size: 14px;
+}

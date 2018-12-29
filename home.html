@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600,800" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="base.css">
+        <link rel="stylesheet" href="home.css">
+        <script type="text/javascript" src="navbar.js"></script>
+        <script type="text/javascript" src="home.js"></script>
+        <meta charset="utf-8">
+        <title>Home Page</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="headerContainer">
+                <div class="headerLeft headerLR">
+                    <a class="headerLinks logoText" href="home.html"></a>
+                </div>
+
+                <a href="#" class="openSlide openSlideMenu"onclick="openSlideMenu()"><i class="fas fa-bars"></i></a>
+
+                <div class="headerRight headerLR navbar navbar-nav">
+                    <a class="navLinks currentPageLink active" href="home.html">Home</a>
+
+                    <div class="subMenuWrapper">
+                        <a class="parentSubLink subMenu navLinks" id="featuredID" href="featured.html">Featured Projects &#x2304;</a>
+                        <div class="parentSubLink subMenuContainer">
+                            <a class="subMenuItem navLinks" id="topMenuItem" href="minesweeper.html">Minesweeper</a>
+                            <a class="subMenuItem navLinks" href="connectFour.html">ConnectFour</a>
+                            <a class="subMenuItem navLinks" href="battleship.html">Battleship</a>
+                            <a class="subMenuItem navLinks" href="RBGGame.html">RGB Game</a>
+                            <a class="subMenuItem navLinks" href="pigLatin.html">Piglatin Translator</a>
+                            <a class="subMenuItem navLinks" href="ticTacToe.html">Tic-Tac-Toe</a>
+                        </div>
+                    </div>
+
+                    <a class="navLinks" href="#">Let's Talk</a>
+                </div>
+
+                <div id="side-menu"class="side-nav">
+                    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                    <a class="currentPageLink active slideLinks" href="#">Home</a>
+                    <a class=" slideLinks" href="featured.html">Featured Projects</a>
+                    <a class=" slideLinks" href="contact.html">Let's Talk</a>
+                </div>
+
+            </nav>
+        </header>
+        <main>
+            <section class="bannerImageSection">
+                <div class="bannerContainer">
+                    <div class="bannerPictureContainer">
+                        <div class="bannerPictureText">
+                              I am
+                              <span
+                                 class="txt-rotate"
+                                 data-period="2000"
+                                 data-rotate='[ "Julianne.", "a problem solver.", "a dog lover.", "a Web Developer." ]'></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="aboutMeSection">
+                    <div class="aboutMeContainer">
+                        <section class="aboutMeText">
+                            Hello, my name is Julianne Peters.
+                            <br/>
+                            <br/>
+                            I am currently working as an intern for a local San Diego company, <a href="https://www.the5thingredient.com/">The 5th Ingredient</a>, having just finished a intensive Full-Stack Web Development Bootcamp that uses an immersive style to teach Javascript, React, Ruby, Ruby on Rails, and PostgreSQL while utilizing pair programing and emphasizing a strong understanding of programatic logic. I’m making the transition from a 15 year career in Critical Care Nursing to web development because as a nurse I love spending my days in a fast paced environment that is committed to making peoples lives better with using creative and abstract thinking, problem solving, and constant learning and see how I can use this same passion to drive my web developer career.
+                            <br/>
+                            <br/>
+                            I’m super excited to be transferring my skills to the tech industry because it is filled with opportunity to bring problem solving while meeting people’s needs! Learn Academy has given me a solid base of information and skills upon which to draw as I look to step out of the educational environment and into the professional environment.
+                            <br/>
+                            <br/>
+                            I’m most interested in full stack development and want to work for company that is very focused on the client and seek to serve and meet their needs. Personally, I want to be both pushed and supported by the company for whom I work as I continue this next steep learning curve of web development. In this career change, I’m excited about the schedule flexibility that web development can offer and ideally will be able to take advantage of that in future job opportunities.
+                        </section>
+                        <aside class="aboutHeadshot">
+                            <img src="Images/Learn_Nov_2018_Julianne3.jpg" alt="Headshot of Julianne Peters">
+                        </aside>
+                    </div>
+                </div>
+            </section>
+            <section class="socialLinksSection">
+                <div class="socialLinksContainer">
+                    <a class="socialLink" id="linkedInBtn" href="https://www.linkedin.com/in/juliannespeters/"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a class="socialLink" id="githubBtn" href="https://github.com/jscotty723"><i class="fab fa-github-square fa-2x"></i></a>
+                    <a class="socialLink" id="twitterBtn" href="https://twitter.com/JulianneScott"><i class="fab fa-twitter-square fa-2x"></i></a>
+                    <a class="socialLink" id="instagramBtn" href="https://www.instagram.com/juliannescott/"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footerContainer">
+                <div class="footerText">
+                    © Juilanne S. Peters   |   www.JPeters.me
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

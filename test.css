@@ -1,0 +1,23 @@
+.grandparent {
+    display: flex;
+    flex-direction: row;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.child {
+    display: none;
+}
+
+div .hover:hover {
+        display: block;
+        color: red;
+}
+
+div {
+    border: 1px black solid;
+}

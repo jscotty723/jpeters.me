@@ -1,0 +1,39 @@
+h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #cc6720;
+}
+
+p {
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.technologyMain {
+    margin-top: 52px;
+    background-color: #131b26;
+    color: white;
+}
+
+.technologySection {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+}
+
+.subHeadings {
+    font-weight: bold;
+    width: 60vw;
+    border-bottom: 1px #cc6720 solid;
+    margin-bottom: 12px;
+    padding-left: 12px;
+}
+
+.content {
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.contentSpan {
+    font-size: 12px;
+}
