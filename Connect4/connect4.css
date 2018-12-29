@@ -1,0 +1,213 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'cafeteriaregular';
+    src: url('cafeteria_regular-webfont.woff2') format('woff2'),
+         url('cafeteria_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.subHeader {
+    background-color: #f5ff44;
+    width: 100vw;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 22px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#game_info {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+html {
+    font-family: 'cafeteriaregular';
+    background-color: #494f59;
+    text-align: center;
+    padding: 0px;
+}
+
+.wholePageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameBoard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    background-color: #3462ad;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100vw;
+}
+
+click_button {
+	height: 52px;
+	width: 52px;
+	border-radius: 50%;
+	background-color: rgba(255,0,0,1);
+	cursor: pointer;
+}
+
+/* Make each piece square - 32x32, set the border-radius to 16px (so that it appears round) and center it using margin-left
+and margin-right: auto */
+.piece {
+	height: 52px;
+	width: 52px;
+	display:block;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+    border: 1px solid #9e9e9e;
+}
+
+#begin_game {
+    height: 40px;
+    width: 100px;
+    background-color: rgba(310, 310, 310, 1);
+    border: none;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:0.5px solid black;
+    outline-color:#f5ff44;
+    outline-style:outset;
+}
+
+.player0 {
+	background-color: #DDDDDD;
+}
+
+.player1 {
+	background-color: #FF0000;
+}
+
+.player2 {
+	background-color: black;
+}
+
+/* .player1Text {
+    color: red;
+}
+
+.player2Text {
+    color: black;
+} */
+
+.player1Chip {
+    background-color: red;
+}
+
+.player2Chip {
+    background-color: black;
+}
+
+.board_square {
+	border: 1px solid #efefef;
+	height: 60px;
+	width: 60px;
+    padding-top: 6px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+#slots {
+    background-color: #f5ff44;
+    border-left: 12px solid #3462ad;
+    border-bottom: 12px solid #3462ad;
+    border-right: 12px solid #3462ad;
+    margin-bottom: 30px;
+}
+
+tr {
+    height: 55px;
+}
+
+.drop {
+    margin-bottom: 5px;
+}
+
+.drop:hover {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid #9e9e9e;
+
+
+}
+
+.player2Turn:hover {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+table button {
+    width: 52px;
+    height: 52px;
+    background-color: inherit;
+    border: none;
+    color: #f5ff44;
+}
+
+button {
+    outline: none
+}

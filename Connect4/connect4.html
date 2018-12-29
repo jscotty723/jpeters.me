@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="connect4.css">
+    </head>
+    <body>
+        <container class="wholePageContainer">
+            <h1>CONNECT FOUR GAME</h1>
+            <p class="subHeader">My version of an old classic game!</p>
+
+            <div oncontextmenu="return false" id="gameBoard">
+                <button id="begin_game" onClick="startGame()"> Start Game!</button>
+
+                <div id="game_info">
+                    Click start game to play!
+                </div>
+
+                <table id="game_table" class="game_table">
+                    <thead id="thead">
+                        <tr id="topRow">
+                            <td>
+                                <button class="drop" onClick="dropToken(0)">Drop</button>
+                            </td>
+                            <td>
+                                <button class="drop" onClick="dropToken(1)">Drop</button>
+                            </td>
+                            <td>
+                                <button class="drop" onClick="dropToken(2)">Drop</button>
+                            </td>
+                            <td>
+                                <button class="drop" onClick="dropToken(3)">Drop</button>
+                            </td>
+                            <td>
+                                <button class="drop" onClick="dropToken(4)">Drop</button>
+                            </td>
+                            <td>
+                                <button class="drop" onClick="dropToken(5)">Drop</button>
+                            </td>
+                            <td>
+                                <button class="drop" onClick="dropToken(6)">Drop</button>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody id="slots">
+                        <script type="text/javascript">
+                            for (var r = 0; r <= 5; r++) {
+            					document.writeln("<tr id='tr'>");
+            					for (var c = 0; c <= 6; c++) {
+            						document.writeln("<td id='square_" + r + "_"+ c +"' class='board_square'></td>");
+            					}
+            					document.writeln("</tr>");
+            				}
+                        </script>
+                    </tbody>
+                </table>
+            </div>
+        </container>
+        <script type="text/javascript" src="connect4.js"></script>
+    </body>
+</html>
