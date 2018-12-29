@@ -93,7 +93,7 @@ a {
 .subMenuContainer {
     display: none;
     position: absolute;
-    width: 190px;
+    width: 200px;
     min-width: 160px;
     z-index: 1;
     box-shadow: 0 3px 3px -3px rgba(0,0,0,0.6);
