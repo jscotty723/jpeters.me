@@ -13,6 +13,10 @@ a {
     cursor: pointer;
 }
 
+.pageMain {
+    height: 90vh;
+}
+
 /* header styling */
 .header {
     background-color: #4D545B;
