@@ -38,3 +38,15 @@ textarea {
     font-size: 20px;
     border-radius: 5px;
 }
+
+form > p {
+    display: flex;
+}
+
+select {
+    height: 70px;
+}
+
+form {
+    padding-bottom: 50px;
+}
