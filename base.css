@@ -14,7 +14,7 @@ a {
 }
 
 .pageMain {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* header styling */
@@ -150,11 +150,11 @@ a {
     right: 0;
     background-color: black;
     overflow-x: hidden;
-    padding-top:  40px;
+    padding-top:  55px;
     transition: 0.5s;
 }
 .side-nav a {
-    padding: 0px 10px 10px 20px;
+    padding: 10px 10px 10px 20px;
     text-decoration: none;
     font-size: 22px;
     display: flex;
@@ -163,8 +163,13 @@ a {
 }
 
 .side-nav .slideLinks:hover {
-    background-color: #4D545B
+    background-color: #4D545B;
+    padding-top: 10px;
+}
 
+.slideLinks > a {
+    padding-top: 50px;
+    height: 46px;
 }
 
 .side-nav .btn-close {
@@ -181,13 +186,13 @@ a {
     width: 100%;
 }
 
-@media(max-width:620px) {
+@media(max-width:720px) {
     .navbar-nav {
         display: none;
     }
 }
 
-@media(min-width:620px) {
+@media(min-width:720px) {
     .openSlide {
         display: none;
     }

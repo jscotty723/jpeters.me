@@ -29,7 +29,9 @@
 /* about me styling */
 .aboutMeContainer {
     display: flex;
-
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
+    align-content: space-between;
 }
 .aboutMeSection {
     width: 100vw;
@@ -41,16 +43,25 @@
     color: white;
     padding: 70px 100px;
     font-size: 1.3em;
+    width: 60vw;
+}
+
+.aboutMeText > p {
+    margin-bottom: 24px;
 }
 
 .aboutHeadshot > img {
-    border: 5px solid #cc6720
+    border: 5px solid #cc6720;
+    width: 300px;
+    height: 375px;
 }
 
 .aboutHeadshot {
-    height: 600px;
-    padding-top: 125px;
-    padding-right: 100px;
+    display: flex;
+    width: auto;
+    padding-top: 75px;
+    padding-right: 50px;
+    
 }
 
 /* languages styling */
@@ -61,8 +72,6 @@
     padding-top: 15px;
     font-size: 22px;
     font-weight: bold;
-
-
 }
 
 .languagesContainer {
@@ -139,5 +148,9 @@ h1 {
 
     .wrap {
         font-size: 1em;
+    }
+
+    .aboutHeadshot {
+        display: none
     }
 }
