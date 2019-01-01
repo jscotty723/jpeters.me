@@ -4,7 +4,7 @@
     background: #131b26;
     font-size: 20px;
     color: white;
-    padding-right: 30vw;
+    padding-right: 25vw;
 
 }
 
@@ -22,14 +22,14 @@
 }
 
 input,textarea,select{
-    width: 250px;
+    width: 700px;
     font-size: 18px;
     margin-bottom: 15px;
 }
 
 textarea {
   resize: none;
-  width: 250px;
+  width: 700px;
   height: 250px;
 }
 
@@ -49,4 +49,12 @@ select {
 
 form {
     padding-bottom: 50px;
+}
+
+h1 {
+    padding-left: 50px;
+    margin-bottom: 25px;
+    color: #cc6720;
+    font-weight: bold;
+    font-size: 42px;
 }

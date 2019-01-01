@@ -133,11 +133,11 @@ h1 {
 
 @media (max-width:620px) {
     .bannerPictureText {
-        font-size: 30px;
-        padding-left: 35px;
+        font-size: 1.8em;
+        padding-left: 20px;
     }
 
     .wrap {
-        font-size: 30px;
+        font-size: 1em;
     }
 }
