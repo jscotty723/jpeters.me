@@ -7,10 +7,10 @@
         <link rel="stylesheet" href="base.css">
         <link rel="stylesheet" href="game.css">
         <script type="text/javascript" src="navbar.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <title>Minesweeper Details</title>
     </head>
-
     <body>
         <header class="header">
             <nav class="headerContainer">
@@ -46,65 +46,62 @@
                 </div>
             </nav>
         </header>
-        <main>
+        <main class='pageMain'>
             <section class="gameDetails">
                 <div class="gameInformation">
-                    <br/>
-                    <h4>
+                    <h3>
                         Minesweeper Explained:
-                    </h4>
-                    <br/>
+                    </h3>
+                    <hr class="gameTitleHR">
                     <summary>
-                        <span class="heading">My process in developing this game:</span>
-                        <br/>
-                        I've really enjoyed learning coding by making games. I wanted to get a little deeper into the logic and minesweeper had a greater complexity then the other games upon which I had been working.
-                        <br/>
-                        <br/>
-                        <span class="heading">
+                        <h4 class="gameHeading">My process in developing this game:</h4>
+                        <p>
+                            I've really enjoyed learning coding by making games. I wanted to get a little deeper into the logic and minesweeper had a greater complexity then the other games upon which I had been working.
+                        </p>
+                        <h4 class="gameHeading">
                             Technologies Used:
-                        </span>
-                        <br/>
-                        &#8226; ReactJS
-                        <br/>
-                        &#8226; CSS3
-                        <br/>
-                        <br/>
-                        <span class="heading">
+                        </h4>
+                        <p>
+                            &#8226; ReactJS
+                            <br/>
+                            &#8226; CSS3
+                        </p>
+                        <h4 class="gameHeading">
                             Barriers to Development:
-                        </span>
-                        <br/>
-                        This project was more difficult then previous ones on several levels. The first big wall I hit was isolating the right click from the left. After spending a bit of time learning about click events, I spent another chunk of time understanding how to (in React) disable the onContextMenu. These were really good oppertunities for me to understand both React and CSS a bit more!
-                        <br/>
-                        <br/>
-                        The next big barrier I'm currently working through is the difficulty in cascading squares to open themselves if a blank square is clicked.
-                        <br/>
-                        <br/>
-                        <span class="heading">
+                        </h4>
+                        <p>
+                            This project was more difficult then previous ones on several levels. The first big wall I hit was isolating the right click from the left. After spending a bit of time learning about click events, I spent another chunk of time understanding how to (in React) disable the onContextMenu. These were really good oppertunities for me to understand both React and CSS a bit more!
+                            <br>
+                            <br>
+                            The next big barrier I'm currently working through is the difficulty in cascading squares to open themselves if a blank square is clicked.
+                        </p>
+                        <h4 class="gameHeading">
                             Refactoring:
-                        </span>
-                        <br/>
-                        I'm not quite done with this game yet, so I haven't done much refactoring, but I've got some ideas, expecially for when I implement levels with greater difficulty. I also need to implement the timer part of the game.
-                        <br/>
-                        <br/>
+                        </h4>
+                        <p>
+                            I'm not quite done with this game yet, so I haven't done much refactoring, but I've got some ideas, expecially for when I implement levels with greater difficulty. I also need to implement the timer part of the game.
+                        </p>
                     </summary>
                     <div class="gameButtons">
                         <a class="launchGameButton" href="https://jpetersminesweeper.herokuapp.com/">
                             Launch Minesweeper
                         </a>
-                        <br/>
-                        <br/>
                         <a class="lookAtTheCode" href="https://github.com/jscotty723/minesweeper-React">
                             Look at the Code
                         </a>
                     </div>
                 </div>
                 <aside class="screenshots">
-                    <h4>Screenshots:</h4>
+                    <h3>Screenshots:</h3>
+                    <hr class="gameTitleHR">
                     <img src="Images/minesweeper1.png" alt="Battleship game screenshot">
                     <br/>
                     <img src="Images/minesweeper2.png" alt="Battleship game screenshot">
                 </aside>
             </section>
+        </main>
+
+        <footer>
             <section class="socialLinksSection">
                 <div class="socialLinksContainer">
                     <a class="socialLink" id="linkedInBtn" href="https://www.linkedin.com/in/juliannespeters/"><i class="fab fa-linkedin fa-2x"></i></a>
@@ -113,12 +110,9 @@
                     <a class="socialLink" id="instagramBtn" href="https://www.instagram.com/juliannescott/"><i class="fab fa-instagram fa-2x"></i></a>
                 </div>
             </section>
-        </main>
-
-        <footer>
             <div class="footerContainer">
                 <div class="footerText">
-                    © Juilanne S. Peters   |   www.JulianneScott.com
+                    © Juilanne S. Peters   |   www.JPeters.me
                 </div>
 
             </div>
