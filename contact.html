@@ -6,13 +6,11 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="base.css">
         <link rel="stylesheet" href="contact.css">
-        <script type="text/javascript" src="navbar.js">
-
-        </script>
+        <script type="text/javascript" src="navbar.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <title>Let's Talk!</title>
     </head>
-
     <body>
         <header class="header">
             <nav class="headerContainer">
@@ -20,10 +18,10 @@
                     <a class="headerLinks logoText" href="home.html"></a>
                 </div>
 
-                <a href="#" class="openSlide openSlideMenu"onclick="openSlideMenu()"><i class="fas fa-bars"></i></a>
+                <a class="openSlide openSlideMenu"onclick="openSlideMenu()"><i class="fas fa-bars"></i></a>
 
                 <div class="headerRight headerLR navbar navbar-nav">
-                    <a class="navLinks active" href="home.html">Home</a>
+                    <a class="navLinks active currentPageLink" href="home.html">Home</a>
                     <div class="subMenuWrapper">
                         <a class="parentSubLink subMenu navLinks" id="featuredID" href="featured.html">Featured Projects &#x2304;</a>
                         <div class="parentSubLink subMenuContainer">
@@ -36,15 +34,15 @@
                         </div>
                     </div>
                     <a class="navLinks" href="technology.html">Technology</a>
-                    <a class=" currentPageLink navLinks" href="contact.html">Let's Talk</a>
+                    <a class="navLinks" href="contact.html">Let's Talk</a>
                 </div>
 
                 <div id="side-menu"class="side-nav">
                     <a class="btn-close" onclick="closeSlideMenu()">&times;</a>
-                    <a class="active slideLinks" href="home.html">Home</a>
+                    <a class="currentPageLink active slideLinks" href="home.html">Home</a>
                     <a class="slideLinks" href="featured.html">Featured Projects</a>
                     <a class="navLinks" href="technology.html">Technology</a>
-                    <a class="currentPageLink slideLinks" href="contact.html">Let's Talk</a>
+                    <a class="slideLinks" href="contact.html">Let's Talk</a>
                 </div>
             </nav>
         </header>
