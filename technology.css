@@ -21,11 +21,13 @@ p {
     padding-top: 60px;
 }
 
+.techDetailsContainer {
+    width: 50vw;
+}
+
 .subHeadings {
     font-weight: bold;
     width: 60vw;
-    border-bottom: 1px #cc6720 solid;
-    margin-bottom: 12px;
     padding-left: 12px;
 }
 
@@ -36,4 +38,11 @@ p {
 
 .contentSpan {
     font-size: 12px;
+}
+
+.techHR {
+    margin-bottom: 12px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(204, 103, 32, 0.85), rgba(0, 0, 0, 0));
 }
