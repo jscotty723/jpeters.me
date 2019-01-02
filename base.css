@@ -14,7 +14,7 @@ a {
 }
 
 .pageMain {
-    min-height: 100vh;
+    min-height: 92vh;
 }
 
 /* header styling */
@@ -207,11 +207,11 @@ a {
     border-top: 1.5px solid white;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .socialLink {
-    margin-top: 20px;
-    margin-bottom: 20px;
     margin-left: 3vw;
     margin-right: 3vw;
 }

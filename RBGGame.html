@@ -7,10 +7,10 @@
         <link rel="stylesheet" href="base.css">
         <link rel="stylesheet" href="game.css">
         <script type="text/javascript" src="navbar.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <title>RBG Game Details</title>
     </head>
-
     <body>
         <header class="header">
             <nav class="headerContainer">
@@ -46,64 +46,62 @@
                 </div>
             </nav>
         </header>
-        <main>
+        <main class='pageMain'>
             <section class="gameDetails">
                 <div class="gameInformation">
-                    <br/>
-                    <h4>
+                    <h3>
                         RBG Game Explained:
-                    </h4>
+                    </h3>
+                    <hr class="gameTitleHR">
                     <br/>
                     <summary>
-                        <span class="heading">My process in developing this game:</span>
-                        <br/>
-                        This is the first project I ever worked on that involved JavaScript to effect DOM. It was part of a Udemy couse I took and was very imformative of how little I knew and helped put a bunch of pieces together.
-                        <br/>
-                        <br/>
-                        <span class="heading">
+                        <h4 class="gameHeading">My process in developing this game:</h4>
+                        <p>
+                            This is the first project I ever worked on that involved JavaScript to effect DOM. It was part of a Udemy couse I took and was very imformative of how little I knew and helped put a bunch of pieces together.
+                        </p>
+                        <h4 class="gameHeading">
                             Technologies Used:
-                        </span>
-                        <br/>
-                        &#8226; HTML5
-                        <br/>
-                        &#8226; CSS3
-                        <br/>
-                        &#8226; JavaScript
-                        <br/>
-                        <br/>
-                        <span class="heading">
+                        </h4>
+                        <p>
+                            &#8226; HTML5
+                            <br/>
+                            &#8226; CSS3
+                            <br/>
+                            &#8226; JavaScript
+                        </p>
+                        <h4 class="gameHeading">
                             Barriers to Development:
-                        </span>
-                        <br/>
-                        Being the first real project I ever did, it felt very overwhelming to tackel the project. But it taught me really small and good steps to take in a project like this. And it's fun to test my knowledge (or lack there of) of RBG values.
-                        <br/>
-                        <br/>
-                        <span class="heading">
+                        </h4>
+                        <p>
+                            Being the first real project I ever did, it felt very overwhelming to tackel the project. But it taught me really small and good steps to take in a project like this. And it's fun to test my knowledge (or lack there of) of RBG values.
+                        </p>
+                        <h4 class="gameHeading">
                             Refactoring:
-                        </span>
-                        <br/>
-                        I'd like to clean up the code and look it over but it's pretty low on the list right now :-).
-                        <br/>
-                        <br/>
+                        </h4>
+                        <p>
+                            I'd like to clean up the code and look it over but it's pretty low on the list right now :-).
+                        </p>
                     </summary>
                     <div class="gameButtons">
                         <a class="launchGameButton" href="./RBGGame/RBGGame.html">
                             Launch the RBG Game
                         </a>
-                        <br/>
-                        <br/>
                         <a class="lookAtTheCode" href="https://github.com/jscotty723/RBGGame-VanillaJS">
                             Look at the Code
                         </a>
                     </div>
                 </div>
                 <aside class="screenshots">
-                    <h4>Screenshots:</h4>
+                    <h3>Screenshots:</h3>
+                    <hr class="gameTitleHR">
                     <img src="Images/RBG1.png" alt="Battleship game screenshot">
                     <br/>
                     <img src="Images/RBG2.png" alt="Battleship game screenshot">
                 </aside>
             </section>
+        </main>
+
+        <footer>
             <section class="socialLinksSection">
                 <div class="socialLinksContainer">
                     <a class="socialLink" id="linkedInBtn" href="https://www.linkedin.com/in/juliannespeters/"><i class="fab fa-linkedin fa-2x"></i></a>
@@ -112,9 +110,6 @@
                     <a class="socialLink" id="instagramBtn" href="https://www.instagram.com/juliannescott/"><i class="fab fa-instagram fa-2x"></i></a>
                 </div>
             </section>
-        </main>
-
-        <footer>
             <div class="footerContainer">
                 <div class="footerText">
                     © Juilanne S. Peters   |   www.JPeters.me

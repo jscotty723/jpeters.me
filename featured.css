@@ -4,6 +4,12 @@
     background: #131b26;
 }
 
+.featuredMain {
+    background: #131b26;
+    height: 100vh;
+    min-width: 380px;
+}
+
 .featuredProjectsText {
     margin-top: 55px;
     color: #cc6720;
@@ -24,7 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1500px;
     margin-bottom: 35px;
     flex-wrap: wrap;
 }
@@ -36,8 +42,8 @@
     height: 200px;
     width: 350px;
     min-width: 350px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     border-radius: 8px;
     margin-bottom: 35px;
     border: 0.5px solid #cc6720;

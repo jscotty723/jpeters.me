@@ -6,9 +6,8 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="base.css">
         <link rel="stylesheet" href="game.css">
-        <script type="text/javascript" src="navbar.js">
-
-        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="navbar.js"></script>
         <meta charset="utf-8">
         <title>ConnectFour Details</title>
     </head>
@@ -48,64 +47,61 @@
                 </div>
             </nav>
         </header>
-        <main>
+        <main class='pageMain'>
             <section class="gameDetails">
                 <div class="gameInformation">
-                    <br/>
-                    <h4>
+                    <h3>
                         ConnectFour Explained:
-                    </h4>
-                    <br/>
+                    </h3>
+                    <hr class="gameTitleHR">
                     <summary>
-                        <span class="heading">My process in developing this game:</span>
-                        <br/>
-                        After spending a lot of time in ReactJS, I wanted to challenge myself to build this with just VanillaJS. This was agreat project to remember JavaScrpit and also DOM manipulation.
-                        <br/>
-                        <br/>
-                        <span class="heading">
+                        <h4 class="gameHeading">My process in developing this game:</h4>
+                        <p>
+                            After spending a lot of time in ReactJS, I wanted to challenge myself to build this with just VanillaJS. This was agreat project to remember JavaScrpit and also DOM manipulation.
+                        </p>
+                        <h4 class="gameHeading">
                             Technologies Used:
-                        </span>
-                        <br/>
+                        </h4>
+                        <p>
                             &#8226; HTML5
                         <br/>
                             &#8226; CSS3
                         <br/>
                             &#8226; VanillaJS
-                        <br/>
-                        <br/>
-                        <span class="heading">
+                        </p>
+                        <h4 class="gameHeading">
                             Barriers to Development:
-                        </span>
-                        <br/>
+                        </h4>
+                        <p>
                             After being in React and working with JSX syntax, I had to shift my mindset a bit to apprach this project. The biggest issue was figuring out how to update and change the board as the game was played using DOM manipulation. Also, styling wise, I haven't worked much with HTML tables, so figuring out how to reset the CSS of one was a important step. I watched a tutorial of how someone accomplished this using JQuery in order to orient myself a bit to the process.
-                        <br/>
-                        <br/>
-                        <span class="heading">
+                        </p>
+                        <h4 class="gameHeading">
                             Refactoring:
-                        </span>
-                        <br/>
+                        </h4>
+                        <p>
                             The first refactor was to allow a user to pick the color with which their mark would render. The second refactor was to completely redo the CSS for the project so that it could handel browsers being in different sizes.
-                        <br/>
-                        <br/>
+                        </p>
                     </summary>
                     <div class="gameButtons">
                         <a class="launchGameButton" href="./Connect4/connect4.html">
                             Launch ConnectFour
                         </a>
-                        <br/>
-                        <br/>
                         <a class="lookAtTheCode" href="https://github.com/jscotty723/connectFour">
                             Look at the Code
                         </a>
                     </div>
                 </div>
                 <aside class="screenshots">
-                    <h4>Screenshots:</h4>
+                    <h3>Screenshots:</h3>
+                    <hr class="gameTitleHR">
                     <img src="Images/connectFour1.png" alt="ConnectFour game screenshot">
                     <br/>
                     <img src="Images/connectFour2.png" alt="ConnectFour game screenshot">
                 </aside>
             </section>
+        </main>
+
+        <footer>
             <section class="socialLinksSection">
                 <div class="socialLinksContainer">
                     <a class="socialLink" id="linkedInBtn" href="https://www.linkedin.com/in/juliannespeters/"><i class="fab fa-linkedin fa-2x"></i></a>
@@ -114,12 +110,9 @@
                     <a class="socialLink" id="instagramBtn" href="https://www.instagram.com/juliannescott/"><i class="fab fa-instagram fa-2x"></i></a>
                 </div>
             </section>
-        </main>
-
-        <footer>
             <div class="footerContainer">
                 <div class="footerText">
-                    © Juilanne S. Peters   |   www.JulianneScott.com
+                    © Juilanne S. Peters   |   www.JPeters.me
                 </div>
 
             </div>
