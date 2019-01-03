@@ -70,6 +70,7 @@ h4 {
 
 .gameButtons {
     padding: 0px 30px;
+    margin-top: 25px;
 }
 
 .gameButtons > a {
