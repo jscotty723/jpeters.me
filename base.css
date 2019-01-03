@@ -215,6 +215,7 @@ a {
     margin-left: 3vw;
     margin-right: 3vw;
 }
+
 /* social links hover effects */
 #twitterBtn:hover {
     color: #1DA1F2;
@@ -240,6 +241,17 @@ a {
     color: #6e5494;
 }
 
+@media(max-width:720px) {
+    .socialLinksContainer {
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        padding-left: 75px;
+        padding-right: 75px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
 
 /* footer styling */
 .footerContainer {
@@ -255,4 +267,25 @@ a {
     color: white;
     letter-spacing: .15rem;
     font-size: 14px;
+}
+
+.websiteLink {
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.websiteLink:hover {
+    color: #cc6720
+}
+
+@media(max-width:720px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .footerText {
+        color: white;
+        letter-spacing: .15rem;
+        font-size: 12px;
+    }
 }

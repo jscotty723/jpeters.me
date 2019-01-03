@@ -101,4 +101,8 @@ h1 {
         font-size: 1em;
     }
 
+    .aboutMeText {
+    text-align: left;
+    }
+
 }
