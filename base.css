@@ -163,7 +163,7 @@ a {
     color: white;
 }
 
-.navbarSide .btn-close {
+.navbarSide .btnClose {
     position: absolute;
     top: 0;
     right: 0;
@@ -308,7 +308,7 @@ a {
     background: #262B32;
 }
 
-.btn-close {
+.btnClose {
     font-size: 50px;
 }
 
