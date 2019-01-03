@@ -14,35 +14,33 @@
     <body>
         <header class="header">
             <nav class="headerContainer">
-                <div class="headerLeft headerLR">
-                    <a class="headerLinks logoText" href="home.html"></a>
-                </div>
-
+                <div class="headerLeft headerLR"><a class="headerLinks logoText" href="home.html"></a></div>
                 <a href="#" class="openSlide openSlideMenu"onclick="openSlideMenu()"><i class="fas fa-bars"></i></a>
-
-                <div class="headerRight headerLR navbar navbar-nav">
-                    <a class="navLinks active" href="home.html">Home</a>
-                    <div class="subMenuWrapper">
-                        <a class="parentSubLink subMenu navLinks" id="featuredID" href="featured.html">Featured Projects &#x2304;</a>
-                        <div class="parentSubLink subMenuContainer">
-                            <a class="subMenuIteeism navLinks" id="topMenuItem" href="minesweeper.html">Minesweeper</a>
-                            <a class="subMenuItem navLinks" href="connectFour.html">ConnectFour</a>
-                            <a class="subMenuItem navLinks" href="battleship.html">Battleship</a>
-                            <a class="subMenuItem navLinks" href="RBGGame.html">RGB Game</a>
-                            <a class="subMenuItem navLinks" href="ticTacToe.html">Tic-Tac-Toe</a>
-                            <a class="subMenuItem navLinks" href="OUGU.html">Own-Up Grown-Up</a>
-                        </div>
-                    </div>
-                    <a class="navLinks" href="technology.html">Technology</a>
-                    <a class="navLinks" href="contact.html">Let's Talk</a>
+                <div class="navbarArea">
+                    <ul>
+                        <li><a class="currentPageLink" href="home.html">Home</a></li>
+                        <li><a class="" href="featured.html">Featured Projects&nbsp;&nbsp;<i class="fas fa-caret-down"></i></a>
+                            <ul class="navbarDropdown">
+                                <li><a class="" href="minesweeper.html">Minesweeper</a></li>
+                                <li><a class="" href="connectFour.html">ConnectFour</a></li>
+                                <li><a class="" href="battleship.html">Battleship</a></li>
+                                <li><a class="" href="RBGGame.html">RGB Game</a></li>
+                                <li><a class="" href="ticTacToe.html">Tic-Tac-Toe</a></li>
+                                <li><a class="" href="OUGU.html">Own-Up Grown-Up</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="" href="technology.html">Technology</a></li>
+                        <li><a class="" href="contact.html">Let's Talk</a></li>
+                    </ul>
                 </div>
-
-                <div id="side-menu"class="side-nav">
-                    <a class="btn-close" onclick="closeSlideMenu()">&times;</a>
-                    <a class="active slideLinks" href="home.html">Home</a>
-                    <a class="slideLinks" href="featured.html">Featured Projects</a>
-                    <a class="navLinks" href="technology.html">Technology</a>
-                    <a class="slideLinks" href="contact.html">Let's Talk</a>
+                <div id="navbarSide" class="navbarSide">
+                    <ul>
+                        <li class="closeButton"><a class="btn-close" onclick="closeSlideMenu()">&times;</a></li>
+                        <li><a class="currentPageLink" href="">Home</a></li>
+                        <li><a href="featured.html">Projects</a></li>
+                        <li><a href="technology.html">Technology</a></li>
+                        <li><a href="contact.html">Let's Talk</a></li>
+                    </ul>
                 </div>
             </nav>
         </header>
