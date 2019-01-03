@@ -13,6 +13,14 @@ a {
     cursor: pointer;
 }
 
+* {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: visible;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
 .pageMain {
     min-height: 92vh;
 }
@@ -58,43 +66,6 @@ a {
     height: auto;
 }
 
-.navLinks {
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 19px;
-    font-size: 18px;
-    background-color: #4D545B;
-}
-
-.navLinks:hover {
-    background-color: #262B32;
-}
-
-.currentPageLink {
-    font-weight: 800;
-}
-
-.subLink {
-    font-size: 18px;
-}
-
-/* dropdown menu styles */
-* {
-    font-family: 'Raleway', sans-serif;
-    overflow-x: visible;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-a {
-    color: white;
-    text-decoration: none; /* no underline */
-    font-size: 20px;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
 /* navbar styling */
 .navbarArea a {
     display: flex;
@@ -112,12 +83,12 @@ a {
 .navbarArea a:hover {
     background: #262B32;
     color: white;
-
 }
 
 .navbarArea ul {
     list-style: none;
     display: flex;
+    padding-right: 15px;
 }
 
 .navbarArea ul li {
@@ -154,57 +125,49 @@ a {
 }
 
 .openSlideMenu {
-    padding-top: 15px;
+    padding-top: 18px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
     font-size: 18px;
 }
 
-.side-nav {
-    flex-direction: column;
-    height: 100%;
-    width: 0;
+.navbarSide {
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
     position: fixed;
-    z-index: 1;
+    width: 0;
     top: 0;
     right: 0;
-    background-color: #131b26;
-    overflow-x: hidden;
-    padding-top:  55px;
     transition: 0.5s;
+    overflow-x: hidden;
 }
-.side-nav a {
-    padding: 10px 10px 10px 20px;
-    text-decoration: none;
-    font-size: 22px;
+
+.navbarSide a {
     display: flex;
-    flex-direction: row;
-    transition: 0.3s;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    background: #4D545B;
+    height: 55px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 170px;
+    height: 55px;
 }
 
-.side-nav .slideLinks:hover {
-    background-color: #4D545B;
-    padding-top: 10px;
+.navbarSide a:hover {
+    background: #262B32;
+    color: white;
 }
 
-.slideLinks > a {
-    padding-top: 50px;
-    height: 46px;
-}
-
-.side-nav .btn-close {
+.navbarSide .btn-close {
     position: absolute;
     top: 0;
     right: 0;
     font-size: 42px;
-}
-
-#main {
-    transition: margin-right 0.5s;
-    padding: 20px;
-    overflow: visible;
-    width: 100%;
 }
 
 @media(max-width:720px) {
@@ -218,6 +181,8 @@ a {
         display: none;
     }
 }
+
+/* social links styling */
 
 .socialLinksContainer {
     width: 100vw;
@@ -311,56 +276,44 @@ a {
     }
 }
 
-/* responsive menu styles */
-.navbar {
-    overflow-x: visible;
-}
-
-.openSlideMenu {
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    font-size: 18px;
-}
-
-.side-nav {
-    flex-direction: column;
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #131b26;
-    overflow-x: hidden;
-    padding-top:  55px;
-    transition: 0.5s;
-}
-.side-nav a {
-    padding: 10px 10px 10px 20px;
-    text-decoration: none;
-    font-size: 22px;
+/* side navbar menu */
+.navbarSide {
     display: flex;
-    flex-direction: row;
-    transition: 0.3s;
+    height: 100vh;
+    background-color: #262B32;
 }
 
-.side-nav .slideLinks:hover {
-    background-color: #4D545B;
-    padding-top: 10px;
+.navbarSide a {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background: #262B32;
+    height: 55px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 170px;
+    height: 55px;
 }
 
-.slideLinks > a {
-    padding-top: 50px;
-    height: 46px;
+.navbarSide a:hover {
+    background: #4D545B;
+    color: white;
 }
 
-.side-nav .btn-close {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 42px;
+.navbarSide ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background: #262B32;
+}
+
+.btn-close {
+    font-size: 50px;
+}
+
+.closeButton > a:hover {
+    background: #262B32
 }
 
 #main {
@@ -371,7 +324,7 @@ a {
 }
 
 @media(max-width:720px) {
-    .navbar-nav {
+    .navbarArea {
         display: none;
     }
 }
