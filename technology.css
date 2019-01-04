@@ -46,3 +46,14 @@ p {
     height: 2px;
     background-image: linear-gradient(to right, rgba(204, 103, 32, 0.85), rgba(0, 0, 0, 0));
 }
+
+
+@media (max-width:620px) {
+    .technologySection {
+        padding: 30px 20px 25px 20px
+    }
+
+    .featuredProjectsText > p {
+        padding: 0.5em 1.5em;
+    }
+}
