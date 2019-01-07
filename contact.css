@@ -3,7 +3,7 @@
     padding-top: 70px;
     background: #131b26;
     font-size: 20px;
-    color: white;
+    color: #f7f7f7;
     padding-right: 15vw;
 }
 
@@ -47,7 +47,7 @@ form {
 h1 {
     padding-left: 2em;
     margin-bottom: 0px;
-    color: white;
+    color: #f7f7f7;
     font-weight: bold;
     font-size: 1.8em;
     text-align: left;
@@ -60,7 +60,7 @@ h1 {
 .submitForm {
     padding: 7px 10px;
     background-color: #cc6720;
-    color: white;
+    color: #f7f7f7;
     font-weight: bold;
     font-size: 1em;
     border-radius: 5px;
@@ -70,7 +70,7 @@ h1 {
 }
 
 .submitForm:hover {
-    border: 2px solid white;
+    border: 2px solid #f7f7f7;
 }
 
 .contactHR {

@@ -63,7 +63,7 @@ table {
 #game_info {
     margin-top: 5px;
     margin-bottom: 20px;
-    color: white;
+    color: #f7f7f7;
 }
 
 html {
@@ -91,7 +91,7 @@ h1 {
     background-color: #3462ad;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: #f7f7f7;
     margin-top: 0px;
     margin-bottom: 0px;
     width: 100vw;

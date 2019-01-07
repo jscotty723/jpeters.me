@@ -1,5 +1,5 @@
 h3 {
-    color: white;
+    color: #f7f7f7;
     font-weight: bold;
     font-size: 1.5em;
     text-align: left
@@ -26,7 +26,7 @@ summary > p {
     display: flex;
     justify-content: center;
     background-color: #131b26;
-    color: white;
+    color: #f7f7f7;
 }
 
 .gameDetails {
@@ -76,7 +76,7 @@ h4 {
 .gameButtons > a {
     padding: 7px;
     background-color: #cc6720;
-    color: white;
+    color: #f7f7f7;
     font-weight: bold;
     font-size: 1em;
     border-radius: 5px;
@@ -86,7 +86,7 @@ h4 {
 }
 
 .gameButtons > a:hover {
-    border: 2px solid white;
+    border: 2px solid #f7f7f7;
 }
 
 .launchGameButton {

@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #f7f7f7;
   text-align: center;
   background: steelblue;
   margin: 0;
@@ -33,14 +33,14 @@ h1 {
 }
 
 #stripe {
-  background: white;
+  background: #f7f7f7;
   height: 30px;
   text-align: center;
 }
 
 .selected {
   background: steelblue;
-  color: white;
+  color: #f7f7f7;
 }
 
 #colorDisplay {
@@ -68,6 +68,6 @@ button {
 }
 
 button:hover {
-  color: white;
+  color: #f7f7f7;
   background: steelblue;
 }
