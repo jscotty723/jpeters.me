@@ -21,6 +21,7 @@ p {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 .techDetailsContainer {
@@ -51,6 +52,7 @@ p {
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, rgba(204, 103, 32, 0.85), rgba(0, 0, 0, 0));
+    width: 85vw;
 }
 
 
