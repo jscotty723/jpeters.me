@@ -64,9 +64,15 @@
                         </p>
                         <p class="radioContainer">
                             <label class="formLabel">Prefered Method of Contact:</label>
-                                <input name="preferedContact" type="radio" value="phone">Phone</input>
-                                <input class="radioBtn" name="preferedContact" type="radio" value="email">Email</input>
-                                <input class="radioBtn" name="preferedContact" type="radio" value="other">Other (please specify in message)</input>
+                                <input name="preferedContact" id="phone" type="radio" value="phone">
+                                    <label for="phone">Phone</label>
+                                </input>
+                                <input class="radioBtn" name="preferedContact" id="email" type="radio" value="email">
+                                    <label for="email">Email</label>
+                                </input>
+                                <input class="radioBtn" name="preferedContact" id="other" type="radio" value="other">
+                                <label for="other">Other (please specify in message)</label>
+                                </input>
                         </p>
                         <p>
                             <label class="formLabel">Message: </label>

@@ -87,6 +87,7 @@ h1 {
 
 .radioBtn {
     margin-left: 35px;
+    cursor: pointer;
 }
 
 @media (max-width:650px) {
