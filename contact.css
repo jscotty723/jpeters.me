@@ -81,6 +81,14 @@ h1 {
     background-image: linear-gradient(to right, rgba(204, 103, 32, 0.85), rgba(0, 0, 0, 0));
 }
 
+.radioContainer > input {
+    width: initial;
+}
+
+.radioBtn {
+    margin-left: 35px;
+}
+
 @media (max-width:650px) {
     h1 {
         font-size: 1.2em;

@@ -7,7 +7,6 @@ var TxtRotate = function(el, toRotate, period) {
   this.tick();
   this.isDeleting = false;
 };
-
 TxtRotate.prototype.tick = function() {
   var i = this.loopNum % this.toRotate.length;
   var fullTxt = this.toRotate[i];
@@ -54,6 +53,3 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #f7f7f7 }";
   document.body.appendChild(css);
 };
-
-
-// #29475F

@@ -62,13 +62,11 @@
                             <label class="formLabel">Your Phone:</label>
                             <input placeholder="555-555-5555" type="text" name="phone" />
                         </p>
-                        <p>
+                        <p class="radioContainer">
                             <label class="formLabel">Prefered Method of Contact:</label>
-                            <select name="preferedContact" multiple>
-                                <option value="phone">Phone</option>
-                                <option value="email">Email</option>
-                                <option value="other">Other (please specify in message)</option>
-                            </select>
+                                <input name="radio" type="radio" value="phone">Phone</input>
+                                <input class="radioBtn" name="radio" type="radio" value="email">Email</input>
+                                <input class="radioBtn" name="radio" type="radio" value="other">Other (please specify in message)</input>
                         </p>
                         <p>
                             <label class="formLabel">Message: </label>
