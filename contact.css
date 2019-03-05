@@ -81,13 +81,34 @@ h1 {
     background-image: linear-gradient(to right, rgba(204, 103, 32, 0.85), rgba(0, 0, 0, 0));
 }
 
-.radioContainer > input {
+.radioSection {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.testing {
+    display: flex;
+    font-size: 16px;
+}
+
+.testing > input {
     width: initial;
 }
 
-.radioBtn {
-    margin-left: 35px;
+.testing > label {
+    text-align: left;
     cursor: pointer;
+}
+
+.radioContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.radioContainer > input {
+    width: initial;
 }
 
 @media (max-width:650px) {
